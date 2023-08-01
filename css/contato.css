@@ -1,0 +1,15 @@
+.contato{
+    margin: 265px 0 40px 140px;
+}
+
+.contatocont{
+    display:flex;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+.textocont{
+    margin-left: 30px;
+    display: flex;
+    line-height: 30px;
+}

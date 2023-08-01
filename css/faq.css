@@ -1,0 +1,22 @@
+
+.titulo{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4rem;
+    flex-direction: column;
+    margin: 0 0 0 140px;
+}
+
+.subtitulo{
+    font-family: 'Playfair Display SC', serif;
+    color: var(--color-brown);
+    font-size: 32px;
+}
+
+.Faq{
+    color: #626262;
+    font-family: Poppins;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 163.636% */
+}
