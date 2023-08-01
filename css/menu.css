@@ -1,0 +1,32 @@
+.titulo{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4rem;
+    flex-direction: column;
+    margin: 30px  0 30px 140px;
+}
+
+.subtitulo{
+    font-family: 'Playfair Display SC', serif;
+    color: var(--color-brown);
+    font-size: 1rem;
+}  
+    
+aside{
+    width: 240px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 600px;
+    padding: 1px;
+}
+
+aside img{ 
+   width: 1000px; 
+}
+
+natureza{  
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
