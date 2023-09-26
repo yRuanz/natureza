@@ -11,7 +11,8 @@ nav{
 
 .borda{
     display: inline-flex;
-    padding: 10px;
+    padding: 4px;
+    margin-left: 15px;
     justify-content: center;
     align-items: center;
     gap: 6px;
@@ -20,7 +21,25 @@ nav{
     color: var(--color-brown);
 }
 
+.material-symbols-outlined {
+    margin-left: 6px;
+}
+
 .conteudo{
     line-height: 30px;
     margin-bottom: 20px;
+}
+
+
+.conteudo{
+    display: block;
+    margin-left: 15px;
+}
+
+.conteudo section{
+    display: none;
+}
+
+.conteudo section.active{
+    display: block;
 }

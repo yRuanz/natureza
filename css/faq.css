@@ -6,14 +6,14 @@
     margin: 0 0 0 140px;
 }
 
-.subtitulofaq{
+.perguntas{
     font-family: Poppins;
     color: var(--color-brown);
     margin: 0 0 0 140px;
     font-size: 20px;
 }
 
-.Faq{
+.respostas{
     color: #626262;
     font-family: Poppins;
     font-size: 17;
@@ -21,4 +21,12 @@
     font-weight: 400;
     line-height: 28.8px; /* 163.636% */
     margin: 0 0 0 140px;
+}
+
+.Faq .respostas{
+    display: none;
+}
+
+.Faq .respostas.active{
+    display: block;
 }

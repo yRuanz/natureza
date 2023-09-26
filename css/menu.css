@@ -36,10 +36,3 @@ aside img{
     margin: 0 0 0 50px ;
 }
 
-.js-conteudo section{
-    display: none;
-}
-
-.js-conteudo section.active{
-    display: \2582;
-}
