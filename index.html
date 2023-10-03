@@ -13,13 +13,40 @@
 </head>
 
 <body>
-    <nav class="menu">
-        <span class="material-symbols-outlined">eco</span>NATUREZA
-        <span class="material-symbols-outlined"> quiz</span>FAQ
-        <span class="material-symbols-outlined"> contact_support</span>CONTATO
-        <span class="borda"><span class="material-symbols-outlined">account_circle</span>LOGIN
+    <nav class="menum">
+        <div class="toggle">
+            MENU
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <ul class="menu-list js-list">
+            <li class="menu-link">
+                <a href="#">
+                    <span class="material-symbols-outlined">water_drop</span>
+                    NATUREZA
+                </a>
+            </li>
+            <li class="menu-link">
+                <a href="#">
+                    <span class="material-symbols-outlined">quiz</span>
+                    FAQ
+                </a>
+            </li>
+            <li class="menu-link">
+                <a href="#">
+                    <span class="material-symbols-outlined">contact_support</span>
+                    CONTATO
+                </a>
+            </li>
+            <li class="menu-link">
+                <a href="#">
+                    <span class="material-symbols-outlined">code_blocks</span>
+                    DEV -> 💻
+                </a>
+            </li>
+        </ul>
     </nav>
-
         <h1 class="titulo">EXPLORE A NATUREZA!🌲</h1>
     <main class="natureza">        
             <div class="scroll">
@@ -31,7 +58,7 @@
                 </aside>
             </div>
             <div class="conteudo">
-                <section class="conteudos natureza-content active">
+                <section id="natureza" class="conteudos natureza-content active">
                     <h2 class="subtitulo"><span class="material-symbols-outlined">eco</span>NATUREZA</h2>
     
                     <p>Explorar a natureza é uma atividade incrível que pode proporcionar uma série de benefícios
@@ -46,7 +73,7 @@
                         podemos desfrutar de todos os benefícios que a natureza tem a oferecer enquanto também
                         ajudamos a proteger esse ambiente valioso para as gerações futuras.</p>
                 </section>
-                <section>  
+                <section id="montanhas">  
                         <h2 class="subtitulo"><span class="material-symbols-outlined">filter_hdr</span> MONTANHAS</h2>
     
                     <p>Assim como as praias, as montanhas também são um exemplo maravilhoso da natureza que
@@ -60,7 +87,7 @@
                         locais. Além disso, é importante estar preparado para as condições climáticas e sempre seguir
                         as normas de segurança.</P>
                 </section>
-                <section>
+                <section id="florestas">
                     <h2 class="subtitulo"><span class="material-symbols-outlined">forest</span> FLORESTAS</h2>
     
                     <p>As florestas são ecossistemas complexos e diversificados, que oferecem uma ampla gama de
@@ -77,7 +104,7 @@
                         levar ao desmatamento, à perda de biodiversidade e ao aumento da emissão de gases do
                         efeito estufa.</p>
                 </section>
-                <section>
+                <section id="praias">
                     <h2 class="subtitulo"><span class="material-symbols-outlined"> surfing </span>PRAIAS</h2>
                     
                     <p>As praias são um exemplo maravilhoso da natureza que podem ser exploradas de muitas
